@@ -7,7 +7,9 @@ body
 {
     color: white;
     background-color: #070743dd;
+    background-image: url('imagens/blue.jpg');
 }
+
 
 .caulyheaad
 {
@@ -47,7 +49,7 @@ main
 {
     margin: 10px 16px 20px 30px;
     padding: 5px 10px 10px 10px;
-    background-color: rgb(13, 10, 56);
+    background-color: #0d0a38;
     border-radius: 5px;
     box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.407);
     
@@ -80,9 +82,16 @@ main p{
     margin: auto;
     display: block;
 }
+footer p
+{
+    color: white;
+    font-size: 1em;
+    font-family: Cinzel;
+    background-image: linear-gradient(to right, #0d0a38, rgba(137, 43, 226, 0));
+}
 footer a
 {
-    font-family: Fira Sans Condensed;
+    font-family: Cinzel;
     color: white;
     text-decoration: none;
 }
@@ -91,6 +100,7 @@ h3
     font-family: Cinzel;
     color: rgb(255, 255, 255);
     text-align: center;
+    padding: 10px;
 
 }
 .github
