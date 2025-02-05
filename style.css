@@ -8,6 +8,7 @@ body
     color: white;
     background-color: #070743dd;
     background-image: url('imagens/blue.jpg');
+    background-attachment: fixed;
 }
 
 
